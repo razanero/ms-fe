@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, exceptions, fields, models, _
-from account_invoice_fe import Documento, Item, SignOnLineCmd, Parameter
+from .account_invoice_fe import Documento, Item, SignOnLineCmd, Parameter
 from suds.client import Client
 from suds.transport.http import HttpAuthenticated
 
